@@ -1,9 +1,9 @@
 server:
-  port: 9001
+  port: 9101
 
 spring:
   application:
-    name: nacos-discovery-9001
+    name: nacos-consumer-9101
   cloud:
     nacos:
       discovery:
