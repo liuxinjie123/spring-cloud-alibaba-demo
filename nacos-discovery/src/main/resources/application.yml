@@ -1,0 +1,14 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: nacos-discovery-9001
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.168.60:8848
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
