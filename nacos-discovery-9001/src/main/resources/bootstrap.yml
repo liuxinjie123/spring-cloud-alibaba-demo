@@ -1,6 +1,6 @@
 spring:
   application:
-    name: nacos-discovery-9001
+    name: nacos-discovery
   cloud:
     nacos:
       discovery:
