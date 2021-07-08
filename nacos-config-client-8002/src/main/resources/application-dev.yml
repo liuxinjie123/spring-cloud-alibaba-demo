@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.168.60:8848

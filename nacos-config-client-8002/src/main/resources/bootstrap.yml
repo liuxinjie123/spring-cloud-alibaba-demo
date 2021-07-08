@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        server-addr: 192.168.168.60:8848    # nacos 服务注册中心地址
+      config:
+        server-addr: 192.168.168.60:8848    # nacos 作为配置中心地址
+        file-extension: yaml
+        group: DEFAULT_GROUP    # 指定配置文件分组 GROUP
+        namespace: 11e7ffc1-dc76-4e64-87a9-81ce8070b6d9
+
+    # ${spring.application.name}-${spring.profile.active}-${spring.cloud.nacos.config-file-extension}

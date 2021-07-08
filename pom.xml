@@ -22,10 +22,10 @@
     </properties>
 
     <modules>
-        <module>nacos-config</module>
-        <module>nacos-config-client3377</module>
+        <module>nacos-config-8001</module>
+        <module>nacos-config-client-8002</module>
         <module>nacos-consumer</module>
-        <module>nacos-discovery</module>
+        <module>nacos-discovery-9001</module>
     </modules>
 
     <dependencyManagement>
@@ -54,6 +54,12 @@
                 <type>pom</type>
             </dependency>
 
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-bootstrap</artifactId>
+                <version>3.0.3</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>
@@ -67,6 +73,16 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
         </dependency>
 
         <dependency>
