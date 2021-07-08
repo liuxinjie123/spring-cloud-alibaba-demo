@@ -19,9 +19,9 @@ public class NacosController {
     @Value(value = "${spring.application.name}")
     private String applicationName;
 
-    @GetMapping(value = "/app-name")
+    @GetMapping(value = "/echo/app-name")
     public String getApplicationName() {
-        ServiceInstance serviceInstance = loadBalancerClient.choose("nacos-provider");
+        ServiceInstance serviceInstance = loadBalancerClient.choose("nacos-discovery-9001");
         String path = String.format("http://$s:%s/echo/$s", serviceInstance.getHost(), serviceInstance.getPort(), applicationName);
         System.out.println("request path: " + path);
         return restTemplate.getForObject(path, String.class);

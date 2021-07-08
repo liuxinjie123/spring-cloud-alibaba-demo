@@ -1,10 +1,10 @@
-package com.cloud.alibaba.parent;
+package com.cloud.alibaba;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ParentApplicationTests {
+class NacosConfigApplicationTests {
 
     @Test
     void contextLoads() {
