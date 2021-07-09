@@ -1,4 +1,4 @@
-package com.cloud.alibaba.consumer;
+package com.cloud.alibaba.consumer8003;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class NacosConsumerApplication {
+public class NacosConsumer_8003 {
 
     public static void main(String[] args) {
-        SpringApplication.run(NacosConsumerApplication.class, args);
+        SpringApplication.run(NacosConsumer_8003.class, args);
     }
 
 }

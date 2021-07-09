@@ -1,4 +1,4 @@
-package com.cloud.alibaba.discovery.controller;
+package com.cloud.alibaba.discovery9001.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

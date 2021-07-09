@@ -24,7 +24,7 @@
     <modules>
         <module>nacos-config-8001</module>
         <module>nacos-config-client-8002</module>
-        <module>nacos-consumer</module>
+        <module>nacos-consumer-8003</module>
         <module>nacos-discovery-9001</module>
     </modules>
 
