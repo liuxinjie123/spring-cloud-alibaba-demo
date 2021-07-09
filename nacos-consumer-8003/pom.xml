@@ -11,9 +11,9 @@
     </parent>
 
     <groupId>com.cloud</groupId>
-    <artifactId>nacos-consumer</artifactId>
+    <artifactId>nacos-consumer-8003</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>nacos-consumer</name>
+    <name>nacos-consumer-8003</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
