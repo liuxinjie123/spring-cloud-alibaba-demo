@@ -1,6 +1,6 @@
-spring:
-  application:
-    name: nacos-config
+#spring:
+#  application:
+#    name: nacos-config
 #  cloud:
 #    nacos:
 #      config:

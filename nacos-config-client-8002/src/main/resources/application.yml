@@ -1,8 +1,7 @@
 
-# nacos 配置中心
-server:
-  port: 8002
-
 spring:
   profiles:
     active: dev
+
+server:
+  port: 8002
